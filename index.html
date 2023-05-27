@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/bf0c6a0e3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+       <div class="container">
+         <nav>
+           <img src="images/logo.PNG" class="logo">
+             <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Contact</a></li>
+           </ul>
+         </nav>
+         <div class="header-text">
+          <h1>Hi,<br> I'm <span>Prerna Singh</span></h1>
+         </div>
+       </div>
+  </div>
+
+<!-- ---------------------about----------------------------- -->
+
+<div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about_me.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I'm Prerna Singh, pursuing Bachelor of Technology in Computer Science and Engineering from KIET Group of Institsutions,
+            Ghaziabad. I am Machine Learning Enthusiast, receptive to expanding my knowledge and skills by actively seeking out and 
+            embracing new opportunities to learn. I have a strong inclination towards reading psychological and personality development 
+            books, as well as novels.</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Web Development</span><br>Designing Web interface</li>
+                  <li><span>Machine Learning</span><br>Analyze data & Build effective models/NN</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2020-Present</span><br>B.Tech at KIET Group of Institutions</li>
+                  <li><span>2019-2020</span><br>Senior-Secondary at D.M.P.S</li>
+                  <li><span>2017-2018</span><br>Secondary at D.M.P.S</li>
+                </ul>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- --------------------------services----------------------------- -->
+<!--
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Ad, repellendus pariatur quae 
+          ipsa, adipisci architecto a commodi mollitia 
+          cumque odit hic ducimus dolores nulla magnam, 
+          quibusdam velit fugiat minima molestiae?</p>
+          <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-shield-halved"></i>
+        <h2>Credit Card Fraud Detection</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Ad, repellendus pariatur quae 
+          ipsa, adipisci architecto a commodi mollitia 
+          cumque odit hic ducimus dolores nulla magnam, 
+          quibusdam velit fugiat minima molestiae?</p>
+          <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <h2>Devanagari Handwritten Character Recognition</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Ad, repellendus pariatur quae 
+          ipsa, adipisci architecto a commodi mollitia 
+          cumque odit hic ducimus dolores nulla magnam, 
+          quibusdam velit fugiat minima molestiae?</p>
+          <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<!-- ---------------------portfolio----------------------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/twitter.png">
+        <div class="layer">
+          <h3><b>Twitter Sentimental Analysis</b></h3>
+          <p>A machine learning project focuses on Twitter sentiment analysis, 
+            determining the sentiment (positive, negative, or neutral) of tweets, 
+            providing insights into the nature of the content.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/character.jpg">
+        <div class="layer">
+          <h3><b>Devanagari Handwritten Character Recognition</b></h3>
+          <p>An image data processing project to recognize devanagari handwritten
+            characters using machine learning. Implemented Logistic Regression model,
+            Deep Neural Network and Convolutional Neural Network.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/creditcard.jpg">
+        <div class="layer">
+          <h3><b>Credit Card Fraud Detection</b></h3>
+          <p>Build a Credit Card Fraud Detection using machine learning by
+            implementing models logistic regression, naive bayes, decision tree, random
+            forest, LDA, KNN model. </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-- ---------------------certificates----------------------------- 
+
+<div id="certificates">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/certificates.png" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">Certificates</h1>
+        <p>
+          I have accomplished numerous achievements, and you can find a collection of my 
+          recent certificates showcasing my accomplishments and recognition.
+        </p>
+        <a href="#" class="btn">Click here</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+-->
+
+
+
+<!-- ---------------------contact----------------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="social-icons">
+          <a href="mailto: prernasingh51002@gmail.com? subject= subject text"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/prerna-singh-30291b257/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/prernasingh05"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="images/PRERNA SINGH - resume.pdf" download class="btn btn2">Resume</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>© 2023 Prerna Singh All Rights Reserved.</p>
+  </div>
+</div>
+
+
+
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+
+
+</body>
+</html>
